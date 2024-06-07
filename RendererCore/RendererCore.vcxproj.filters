@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Utill">
+      <UniqueIdentifier>{db00db06-5955-443d-b80f-0b47f0d88811}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer">
+      <UniqueIdentifier>{dd6bd509-a61e-4026-9889-cc5b568e2585}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{db9cd7af-bcd0-4a24-ae98-ad603f43c30a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Type.h">
+      <Filter>Utill</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Utill</Filter>
+    </ClInclude>
+    <ClInclude Include="Const.h">
+      <Filter>Utill</Filter>
+    </ClInclude>
+    <ClInclude Include="DoubleLinkedList.h">
+      <Filter>Utill</Filter>
+    </ClInclude>
+    <ClInclude Include="myrandom.h">
+      <Filter>Utill</Filter>
+    </ClInclude>
+    <ClInclude Include="RendererCore.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="RendererData.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="RendererMath.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="MakeSimpleMesh.h">
+      <Filter>Utill</Filter>
+    </ClInclude>
+    <ClInclude Include="FacePool.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Type.cpp">
+      <Filter>Utill</Filter>
+    </ClCompile>
+    <ClCompile Include="RendererCore.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="RendererData.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="RendererMath.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="MakeSimpleMesh.cpp">
+      <Filter>Utill</Filter>
+    </ClCompile>
+    <ClCompile Include="FacePool.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
